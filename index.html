@@ -2,13 +2,16 @@
 <html>
     <head>
         <title>Ian Atkisson Portfolio</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <nav>
           <a href="index.html">Home</a>
           <a href="KWC.html">Kendama Trick Selector</a>
-          <a href="https://alwayscoding13.github.io/Blog/">Blog</a>  
+          <a href="javascriptProject.html">Javascript Project</a>
+          <a href="https://github.com/AlwaysCoding13">GitHub</a>
+          <a href="https://alwayscoding13.github.io/Blog/">Blog</a>
+          <a href="https://www.linkedin.com/in/ian-atkisson-392303231/">Linked In</a>  
         </nav>
         <div id="heading">
             <h1>Thanks for checking out my Portfolio</h1>
@@ -17,12 +20,36 @@
         </div>
         
         <div id="Content">
-            <article>
-                   <h3><a href="KWC.html">KWC Trick Selector</a></h3>
-                    <p>I consider myself to be a kendama enthusiast and based on it being a wooden toy there isn't much technology implemented in the hobby. Every year they host a Kendama World Championship(KWC) with 12 trick difficulty levels with 10 different tricks per level.
-                    My project idea is to build an app that will let you select a level and tap a button to select a random trick to land. Some more features I'm thinking of adding are the ability to select multiple levels if you wanted more variety in the random seletion. 
-                    I also want to implement some sort of a consistency tracker to log how many times you were successful in landing a trick. KWC also provides video examples of each trick as well so another feature would be the option to click the trick name to go to the video example. Currently I have 0 experience with mobile application development but am excited to dive into the topic and look forward to providing updates on the journey.
-                    </p>     
+            <article class="card-with-img">
+                <a href="KWC.html"class="card-with-side-img">
+                    <div>
+                        <h3>KWC Trick Selector</h3>
+                        <p>I consider myself to be a kendama enthusiast and based on it being a wooden toy there isn't much technology implemented in the hobby. Every year they host a Kendama World Championship(KWC) with 12 trick difficulty levels with 10 different tricks per level.
+                        My project idea is to build an app that will let you select a level and tap a button to select a random trick to land. Some more features I'm thinking of adding are the ability to select multiple levels if you wanted more variety in the random seletion. 
+                        I also want to implement some sort of a consistency tracker to log how many times you were successful in landing a trick. KWC also provides video examples of each trick as well so another feature would be the option to click the trick name to go to the video example. Currently I have 0 experience with mobile application development but am excited to dive into the topic and look forward to providing updates on the journey.
+                        </p>   
+                    </div>
+                    <div>
+                        <img src="images/Screenshot_1647559920.png" width=150px; alt="screenshot of app">
+                    </div>                    
+                </a>        
+            </article>
+            <article class="card-with-img">
+                <a href="javascriptProject.html">
+                    <h3>Javascript Project</h3>
+                    <p>Got an asignment to make a javascript project in my front end web dev course with three options to choose from. Craps, a Pizza Pos or a content management system. 
+                        I had orginally decided to go ahead with the craps game as I was familar with the dice game already ended up spending a few hours working on it before realizing I was supossed to be using forms. At that point I decided to pivot to doing the pizza pos system.
+                    </p>
+                    <div>
+                        <img id="left-img" src="images/Screenshot 2022-03-18 174853.png" width=300px; alt="screenshot of pizza pos system">
+                        <img id="right-img"src="images/Screenshot 2022-03-18 180111.png" width=300px; alt="screenshot of pizza pos system">  
+                    </div>
+                </a>        
+            </article>
+            <article class="card">
+                <a href="https://alwayscoding13.github.io/Blog/">
+                    <p id="blog-link">Might as well check out my blog since you're here</p>
+                </a>        
             </article>
         </div>     
     </body>

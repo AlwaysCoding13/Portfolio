@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+
+h1{
+    
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 a:hover{
+    color:rgb(48, 47, 47);
+}
+
+body {
+    display: grid;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: rgb(131, 127, 131);
+}
+
+nav a {
+    text-align: center;
+    border: .5px solid white;    
+}
+
+nav a:hover {
+    color: black;
+}
+
+#Content{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+article{
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow:0 2px 5px 0 darkgrey; 
+    min-width: 500px;
+    padding: 10px;
+    column-gap: 5px;
+    margin: 10px;
+    background-color: #110f11; 
+}
+
+.card{
+    display: block;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.005);
+    box-shadow:0 4px 10px 0 darkgrey; 
+}
+
+.card-with-img:hover{
+    transform: scale(1.005);
+    box-shadow:0 4px 10px 0 darkgrey; 
+}
+
+#blog-link{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    height: 150px;
+}
+
+.card-with-side-img{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card-img img {
+    border: 1px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#left-img{
+    margin-left: 450px;
+}
+#right-img{
+    margin-left: 50px;
+}
+
+#top-img:hover{
+    transform: scale(1.01);
+}
+
+#bottom-img:hover{
+    transform: scale(1.01);
+}
+
+#top-img{
+    margin-bottom: 50px;
+}
+.card-solo{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 25% auto;
+    column-gap: 10px;
+    width: 100%;
+    
+}
+
+.solo-page{
+    margin-left: 60px;
+    margin-right: 60px;
+}
